@@ -1,5 +1,12 @@
-```A modules that provides Geo Information with a distance and Google MAP URI between two IP addresses
-```
+``A modules that provides Geo Information with a distance and Google MAP URI between two IP addresses
+``
+
+*Requirement"
+1. PYTZ: https://pypi.python.org/pypi/pytz/
+3. GEOPY: https://github.com/geopy/geopy.git
+2. GEOIP:  apt-get install python-geoip
+4. GeoLite City: http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+
 
 *USAGE:*
 	*python geolib_distance.py [-s source IP -d dest IP -g GeoLiteCity.dat location ]\*
